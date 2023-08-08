@@ -2,7 +2,8 @@
 
 def division (dividendo,divisor):
     if(divisor!=0):
-        print(dividendo/divisor)
+       # print(dividendo/divisor) division real pone un punto despues del entero
+        print(dividendo//divisor)  #division entera
     else:
         print('el divisor debe ser distnto de 0')
 
